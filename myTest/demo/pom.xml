@@ -75,7 +75,7 @@
 			<version>1.2.12</version>
 		</dependency>
 
-		<!--<dependency>
+		<dependency>
 			<groupId>Qrcode</groupId>
 			<artifactId>qrcode</artifactId>
 			<scope>system</scope>
@@ -86,8 +86,8 @@
 			<artifactId>qrcode2</artifactId>
 			<scope>system</scope>
 			<systemPath>${project.basedir}/src/main/resources/jar/qrcode-R.jar</systemPath>
-		</dependency>-->
-		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		</dependency>
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>

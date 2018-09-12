@@ -1,6 +1,7 @@
 package com.example.Qrcode;
 
-//import com.swetake.util.Qrcode;
+import com.swetake.util.Qrcode;
+
 
 import javax.imageio.ImageIO;
 import javax.servlet.http.HttpServletResponse;
@@ -9,7 +10,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 
 public class CreateQRCode {
-   /* public static void getQRcode() throws Exception {
+    public static void getQRcode() throws Exception {
         final int size=8;
         Qrcode qrcode = new Qrcode();
         qrcode.setQrcodeErrorCorrect('M');//纠错等级（分为L、M、H三个等级）
@@ -50,5 +51,5 @@ public class CreateQRCode {
 
     public static void main(String[] args) throws Exception {
         getQRcode();
-    }*/
+    }
 }
